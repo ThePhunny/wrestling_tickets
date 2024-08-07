@@ -26,9 +26,9 @@ def ping_larold(message):
 	# and set the environment variables. See http://twil.io/secure
 	account_sid = os.environ["TWILIO_ACCOUNT_SID"]
 	auth_token = os.environ["TWILIO_AUTH_TOKEN"]
-	twillo_url = "https://api.twilio.com/2010-04-01/Accounts/AC826462077781267f9a09026a207cf149/Messages.json"
+	
 	# auth = (account_sid, auth_token)
-	auth=('AC826462077781267f9a09026a207cf149', '461bb1bf23fc4598f9505f15eb9b45ee')
+	
 	data = {
 			'To': WA_TO,
 			'From': WA_FROM,
